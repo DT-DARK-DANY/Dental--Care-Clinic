@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 29, 2021, 11:23:08 PM
+    Author     : damod
+*/
+.text-field{
+        -fx-scale-x: 1.5;
+        -fx-scale-y: 1.5;
+        -fx-background-color: none;
+        -fx-text-fill: whitesmoke;
+        -fx-font-family: "Arial";
+        -fx-border-color: aqua;
+        -fx-border-radius: 100px;     
+        -fx-prompt-text-fill: white;
+}
+.root {
+    
+    -fx-background-image:url('../Background.jpg');
+    -fx-background-size: 1400;
+
+}
+.label{
+    -fx-translate-x: 310;    
+    -fx-font-family: 'Sans-serif','Times New Roman', 'Times', 'serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 60px;
+    -fx-translate-y:180; 
+    -fx-text-fill: rgb(255, 255, 255);
+}
+.button{
+    -fx-translate-x: -42;    
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:none;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+
+}
+.button:hover{    
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+    
+}
+

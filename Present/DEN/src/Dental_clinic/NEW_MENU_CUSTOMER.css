@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2021, 3:22:51 AM
+    Author     : damod
+*/
+
+
+ .root {
+    
+    -fx-background-image:url('../FORM.jpg');
+    -fx-background-size: 1400;
+
+}
+.button{
+-fx-arc-width: 200px;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:none;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+
+}
+.button:hover{    
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+    
+}

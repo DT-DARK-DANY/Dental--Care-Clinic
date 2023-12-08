@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2021, 1:48:32 PM
+    Author     : damod
+*/
+
+.button{
+    -fx-scale-x: 1.7;
+    -fx-scale-y: 1.7;
+    -fx-font-weight:bold; 
+    -fx-border-color: #003399;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:none;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+
+}
+.button:hover{    
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;  
+}
+.root {
+    
+    -fx-background-image:url('../1.jpg');
+    -fx-background-size: 1400;
+
+}
+.label{
+    -fx-translate-x: -30;    
+    -fx-font-family: 'Sans-serif','Times New Roman', 'Times', 'serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+.root {
+    
+    -fx-background-image:url('../Edit_Customer.jpg');
+    -fx-background-size: 1400;
+
+}
+.text-field{
+        -fx-scale-x: 1.5;
+        -fx-scale-y: 1.5;
+            -fx-translate-x: -30;    
+        -fx-background-color: whitesmoke;
+        -fx-background-radius: 100px;
+        -fx-text-fill: #000066;
+        -fx-font-family: "Arial";
+        -fx-border-color: #003399;
+        -fx-border-radius: 100px;     
+        -fx-prompt-text-fill: white;
+}

@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2021, 4:52:34 AM
+    Author     : damod
+*/
+.root {
+    
+    -fx-background-image:url('../@FORM.jpg');
+    -fx-background-size: 1400;
+
+}
+.button{
+-fx-arc-width: 200px;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:none;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+
+}
+.button:hover{    
+    -fx-font-weight:bold; 
+    -fx-border-color: aqua;  
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px; 
+    -fx-text-fill: whitesmoke;
+    
+}
+.label{
+/*    -fx-translate-x: -30;    */
+    -fx-translate-y: 15;    
+    -fx-font-family: 'Sans-serif','Times New Roman', 'Times', 'serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+.combo-box {
+    -fx-background-color: none;
+-fx-border-color: transparent transparent aqua transparent;
+        -fx-text-fill: whitesmoke;
+        -fx-font-family: "Arial";
+                -fx-border-radius: 100px;     
+        -fx-translate-x: 50;    
+        -fx-translate-y: 12;    
+
+
+}
+.BOXES{
+              -fx-translate-x: 90;    
+              -fx-translate-y:-90;    
+}
+.vdata{
+      -fx-background-color:linear-gradient(#36096d,#37d5d6);
+          -fx-max-height: 900;
+
+}
+.combo-box :hover{    
+      -fx-background-color:linear-gradient(#36096d,#37d5d6);
+}
+.text-field{
+        -fx-translate-x: 30;    
+        -fx-scale-x: 1.5;
+        -fx-scale-y: 1.5;
+        -fx-background-color: none;
+        -fx-text-fill: whitesmoke;
+        -fx-font-family: "Arial";
+-fx-border-color: transparent transparent aqua transparent;
+    -fx-border-radius: 100px; 
+
+-fx-prompt-text-fill: white;
+}

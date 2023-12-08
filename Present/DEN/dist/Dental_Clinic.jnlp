@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dental_Clinic.jnlp">
+  <information>
+    <title>Dental_Clinic</title>
+    <vendor>damod</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Dental_Clinic.jar" size="4512935" download="eager" />
+    <jar href="lib\poi-3.11.jar" size="2080419" download="eager" />
+    <jar href="lib\poi-ooxml-3.11.jar" size="1210980" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-3.11.jar" size="5595829" download="eager" />
+    <jar href="lib\xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Dental_Clinic" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Dental_clinic.Dental_Clinic"  name="Dental_Clinic" />
+  <update check="always"/>
+</jnlp>

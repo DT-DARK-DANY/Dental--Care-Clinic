@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2022, 2:09:47 PM
+    Author     : damod
+*/
+
+.label{
+   -fx-translate-x: 20;    
+   -fx-translate-y: 35;    
+    -fx-font-family: 'Sans-serif','Times New Roman', 'Times', 'serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-text-fill: whitesmoke;
+}
+.vdata{
+      -fx-background-color:#36096d;
+
+
+}
+.button{
+/*-fx-arc-width: 50;*/
+    /*-fx-background-insets: 0.0 5.0 0.0 5.0;*/
+        -fx-border-radius: 30px; 
+    -fx-background-radius: 30px;
+    /*-fx-padding: 40 45 40 45;*/
+    
+-fx-translate-y:30px;
+-fx-translate-x:20px;
+    -fx-scale-x: 1.14;
+    -fx-scale-y: 1.14;
+    -fx-font-weight:bold; 
+    -fx-border-color: linear-gradient(#36096d,#37d5d6);
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-text-fill: whitesmoke;
+    
+
+
+
+}
+.button:hover{    
+        /*-fx-padding: 40 45 40 45;*/
+    -fx-font-weight:bold; 
+    -fx-border-color: linear-gradient(#36096d,#37d5d6);
+    -fx-font-family: "Sans-serif";
+    -fx-font-size:16px;
+    -fx-background-color:none;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px; 
+    -fx-text-fill: linear-gradient(#36096d,#37d5d6);
+    
+}
+.VB{
+    -fx-translate-x:600px;
+
+}
+.text-field{
+        -fx-scale-x: 1.5;
+        -fx-scale-y: 1.5;
+         -fx-translate-x: 40;    
+         -fx-translate-y: 40;    
+        -fx-background-color: none;
+        -fx-background-radius: 100px;
+        -fx-text-fill: white;
+        -fx-font-family: "Arial";
+        -fx-border-color: #003399;
+        -fx-border-radius: 100px;     
+        -fx-prompt-text-fill: white;
+}

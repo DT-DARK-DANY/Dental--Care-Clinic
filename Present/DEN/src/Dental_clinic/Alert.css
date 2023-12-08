@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2021, 2:56:20 AM
+    Author     : damod
+*/
+
+.root {
+    
+    -fx-background-color:linear-gradient(#36096d,#37d5d6);
+    -fx-background-size: 300;
+
+}
+.label{
+     -fx-font-family: 'Sans-serif','Times New Roman', 'Times', 'serif';
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
